@@ -2,6 +2,7 @@
   "name": "client",
   "version": "1.0.0",
   "private": true,
+  "proxy": "http://localhost:5000/",
   "description": "",
   "react-project": {
     "server": "modules/server.js",
@@ -12,7 +13,8 @@
     "start": "if-env NODE_ENV=production && npm run react-project:start:prod || npm run react-project:start:dev",
     "test": "karma start",
     "react-project:start:dev": "eslint modules && react-project start",
-    "react-project:start:prod": "rm -rf .build && react-project build && node .build/server.js"
+    "react-project:start:prod": "rm -rf .build && react-project build && node .build/server.js",
+    "dev": "eslint modules && react-project start"
   },
   "author": "",
   "license": "ISC",

@@ -1,16 +1,12 @@
 from flask import Flask
+from src import app, db
 
-app = Flask(__name__)
 
-
-@app.route("/home")
-def index():
-    return {
-        "name": "Pedro",
-        "age": "23",
-        "country": "Brazil",
-    }
+@app.route('/')
+def hello():
+    return "Hello World!"
 
 
 if __name__ == '__main__':
-    app.run(debug=True)
+    with app.app_context():
+        app.run()
