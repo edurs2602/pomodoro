@@ -6,36 +6,36 @@
 </div>
 
 # Summary
-1. [About](#About)
-    1. [Pomodoro](#Pomodoro)
-    2. [Tecnologies](#Tecnologies)
-        1. [Flask](#Flask)
-            1. [PostgreSQL](#PostgreSQL)
-        2. [Angular](#Angular)
-            1. [Material](#Material)
-        3. [Docker](#Docker)
-    3. [Creative-Process](#Criative-Process)
+1. [About](#about)
+    1. [Pomodoro](#pomodoro)
+    2. [Tecnologies](#tecnologies)
+        1. [Flask](#flask)
+            1. [PostgreSQL](#postgreSQL)
+        2. [Angular](#angular)
+            1. [Material](#material)
+        3. [Docker](#docker)
+    3. [Creative-Process](#criative-Process)
 ----
-2. [Objective](#Objective)
-    1. [Supply](#Supply)
-    2. [Vision](#Vision)
-    3. [Purpose](#Purpose)
+2. [Objective](#objective)
+    1. [Supply](#supply)
+    2. [Vision](#vision)
+    3. [Purpose](#purpose)
 ----
 3. Usage
-    1. [Time](#Time)
-        1. [Pomodoro](#Pomodoro)
-        2. [Short-Break](#Short-Break)
-        3. [Long-Break](#Long-Break)
-    2. [User](#User)
-        1. [Login](#Login)
-        2. [SignIn](#SignIn) 
-    3. [Tasks](#Tasks)
+    1. [Time](#time)
+        1. [Pomodoro](#pomodoro)
+        2. [Short-Break](#short-Break)
+        3. [Long-Break](#long-Break)
+    2. [User](#user)
+        1. [Login](#login)
+        2. [SignIn](#signIn) 
+    3. [Tasks](#tasks)
 ----
 4. Collaborators
-   1. [Luis-Eduardo](#Luis)
-      1. [Backend](#Backend)
-   2. [João-Eduardo](#João)
-      1. [Frontend](#Frontend)
+   1. [Luis-Eduardo](#luis)
+      1. [Backend](#backend)
+   2. [João-Eduardo](#joão)
+      1. [Frontend](#frontend)
 
 <hr>
 
