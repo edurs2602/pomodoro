@@ -1,0 +1,13 @@
+version: "3.9"
+services:
+  server:
+    build: ./server/.
+    ports:
+      - "5000:5000"
+  redis:
+    image: "redis:alpine"
+  front:
+    image: front-pomodoro
+    build: ./client/pomodoro/.
+    ports:
+      - '8081:80'
